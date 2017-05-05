@@ -8,7 +8,7 @@ _NOTE: zxcvbn is a large library it's recommended to use code splitting to manag
 
 ## Install in your project
 
-`npm install --save react-password-strength`
+`npm install --save react-password-strength@github:marc-pelland/react-password-strength`
 
 _Note: react/react-dom is a peer dependency. You should be using this in a React project._
 
@@ -21,7 +21,7 @@ _Note: react/react-dom is a peer dependency. You should be using this in a React
 ## Using the tool
 
 ```
-import ReactPasswordStrength from 'react-password-strength'
+import ReactPasswordStrength from 'mp-react-password-strength'
 
 <ReactPasswordStrength
   className='form-control'
